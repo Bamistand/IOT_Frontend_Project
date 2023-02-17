@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
- <!-- Required meta tags -->
- <meta charset="utf-8">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
@@ -12,7 +12,8 @@
 </head>
 <body>
 <?php  include("dbcon.php")?>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="#" class="navbar-brand"> Admin</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -27,22 +28,22 @@
                     <a href="device.php" class="nav-link">Devices</a>
                 </li>
                 <li class="nav-item">
-                    <a href="assignn.php" class="nav-link">Assign Devices</a>
+                    <a href="map.php" class="nav-link">Map Devices</a>
                 </li>
             </ul>
         </div>
 
-    </nav>
+    </nav> -->
     <form action ="hello.php" method="post" enctype="form-data/multipart">
     <div class="container mt-4">
         
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
-                    <!-- <div class="card-header">
+                    <div class="card-header">
                         <h4>Assign Device
                         </h4>
-                    </div> -->
+                    </div>
                     <div class="card-body">
                                      
                         <table class="table table-bordered table-striped">
@@ -54,7 +55,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-    
     <?php
     $devicequery = "select * from devices";
     $device_query = mysqli_query($con, $devicequery);
@@ -78,16 +78,19 @@
     for($i=0;$i<count($userlist);$i++){
         ?>
         <tr>
-       
-       <td>  <input type = "text"  class="form-control-plaintext border-0" name ="usernameid[]" value = "<?php echo $userlistid[$i]; ?>" readonly/></td> 
-       <td> <input type ="text" class="form-control-plaintext border-0" name= "usersname[]" value="<?php echo $userlist[$i] ?>" readonly/></td>
-    </tr>
+                                            
+                                            <td><?php echo $userlistid[$i]; ?></td>
+                                            <td><?php echo $userlist[$i] ?></td>
+                                            
+</tr>
         <?php
     }
 ?>
-<br>
-<br>
-     
+</table>
+
+    <!-- <table>
+        <tr> -->
+   
 <table class="table table-bordered table-striped">
                             <thead>
                                 <tr>
@@ -97,19 +100,18 @@
             
                                 </tr>
                             </thead>
-                            <tbody>   
-            
+                            <tbody>         
 <?php  for ($i=0;$i<count($devicelist);$i++){
     ?>
     <tr>
-    <td><input type="text" class="form-control-plaintext border-0" name="deviceid[]" value="<?php echo $devicelistid[$i]; ?>" readonly/></td>
-  
-    <td> <input type="text" class="form-control-plaintext border-0" name ="device[]" value="<?php echo $devicelist[$i]; ?>" readonly /></td>
-    <td>
+   <td> <input type="text" class="form-control-plaintext border-0" name="deviceid[]" value="<?php echo $devicelistid[$i]; ?>" disabled/></td>
+   <td>
+   <input type="text" class="form-control-plaintext border-0" name ="device[]"  value="<?php echo $devicelist[$i]; ?>" disabled/></td>
+   <td>
    <input type="text" class="form-control" name = "use[]" id = "use">
 </td>
-   
 </tr>
+   <br>
    <?php
 }
     ?></td>
