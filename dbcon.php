@@ -1,9 +1,9 @@
 
 <?php
-$servername = "localhost";
+$servername = "35.228.180.144";
 $username = "root";
-$password = "";
-$dbname = "project";
+$password = "1290asJKL!@()";
+$dbname = "IOT_Project";
 
 // Create connection
 $con = new mysqli($servername, $username, $password, $dbname);
