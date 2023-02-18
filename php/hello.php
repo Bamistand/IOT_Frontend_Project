@@ -32,8 +32,8 @@ include("dbcon.php");
                 
             }
         }else{
-            echo "hey";
-            echo "<br>";
+            // echo "hey";
+            // echo "<br>";
             echo $devicingid;
             echo "<br>";
             
