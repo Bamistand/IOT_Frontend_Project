@@ -7,9 +7,9 @@ This is the project's frontend, which was developed using HTML, CSS, PHP, Bootst
 
 
 ## Features
-*Retrofits old analog appliances with smart plugs for remote control and energy monitoring
-*Includes an automatic turn-off feature when the phone battery is full to reduce energy waste
-*Designed to reduce vampire energy (standby power) consumption
-*Can be applied to a wide variety of analog appliances
+* Retrofits old analog appliances with smart plugs for remote control and energy monitoring
+* Includes an automatic turn-off feature when the phone battery is full to reduce energy waste
+* Designed to reduce vampire energy (standby power) consumption
+* Can be applied to a wide variety of analog appliances
 
 
