@@ -33,6 +33,9 @@
                 <li class="nav-item">
                     <a href="assignn.php" class="nav-link">Assign Devices</a>
                 </li>
+                <li class="nav-item">
+                    <a href="bar.php" class="nav-link">History</a>
+                </li>
             </ul>
         </div>
 
