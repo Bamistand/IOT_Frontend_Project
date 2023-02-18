@@ -13,3 +13,27 @@ This is the project's frontend, which was developed using HTML, CSS, PHP, Bootst
 * Can be applied to a wide variety of analog appliances
 
 
+## Prerequisites
+To run the frontend of this project, you will need the following software and tools installed on your computer:
+
+A web server (such as Xampp)
+PHP (version 7.0 or higher)
+MySQL (version 5.7 or higher)
+
+## Installation
+To install and run the frontend of this project, follow these steps:
+
+* Clone the project's repository to your local machine.
+* Move the contents of the frontend folder to your web server's document root.
+* Update the config.php file with your MySQL database credentials.
+* Launch your web browser and run admin.html for admin and user.html for user.
+
+## Usage
+After successfully launching the frontend of this project, you can use it to:
+
+* View energy usage statistics
+* Control your retrofitted analog appliances
+* Set up schedules for your appliances
+
+
+## Thank you.
