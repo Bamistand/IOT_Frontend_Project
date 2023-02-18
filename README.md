@@ -16,8 +16,8 @@ This is the project's frontend, which was developed using HTML, CSS, PHP, Bootst
 ## Prerequisites
 To run the frontend of this project, you will need the following software and tools installed on your computer:
 
-A web server (such as Xampp)
-PHP (version 7.0 or higher)
+A web server (such as Xampp),
+PHP (version 7.0 or higher),
 MySQL (version 5.7 or higher)
 
 ## Installation
