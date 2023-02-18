@@ -36,8 +36,9 @@ After successfully launching the frontend of this project, you can use it to:
 * Control your retrofitted analog appliances
 * Set up schedules for your appliances
 
-Check here for further instructions;
-https://github.com/cinapr/RetrofitOldAppliances
+
+Also, check here for further instructions about the project;
+https://github.com/cinapr/RetrofitOldAppliances,
 https://github.com/KorawitRupanya/
 
 ## Thank you.
