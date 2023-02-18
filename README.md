@@ -25,7 +25,7 @@ To install and run the frontend of this project, follow these steps:
 
 * Clone the project's repository to your local machine.
 * Move the contents of the frontend folder to your web server's document root.
-* Create a new MySQL database and import the IOT_Project.sql file provided here https://github.com/cinapr/RetrofitOldAppliances to create the necessary tables.
+* Create a new MySQL database and import the IOT_Project.sql file to create the necessary tables.
 * Update the config.php file with your MySQL database credentials.
 * Launch your web browser and run admin.html for admin and user.html for user.
 
@@ -36,6 +36,7 @@ After successfully launching the frontend of this project, you can use it to:
 * Control your retrofitted analog appliances
 * Set up schedules for your appliances
 
+Check here for further instructions;
 https://github.com/cinapr/RetrofitOldAppliances
 https://github.com/KorawitRupanya/
 
